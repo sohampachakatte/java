@@ -14,10 +14,12 @@ public class program1 {
         list.add(2);
         list.add(3);
         list.add(4);
+        list.addLast(5);
 
         System.out.println(list);
 
         // getoperation
+        
         int element = list.get(0);
         System.out.println(element);
 
